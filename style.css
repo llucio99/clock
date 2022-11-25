@@ -10,14 +10,22 @@ body {
 
 .clock {
     background: lightgray;
-    border: 5px solid darkgray;
+    border: 10px solid darkgray;
     border-radius: 50%;
     position: relative;
     width: 700px;
     height: 700px;
 }
 
-.clock div {
+img {
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+
+.numbers div {
     font-size: 60px;
     font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
     position: absolute;
