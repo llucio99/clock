@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: lightsteelblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    background: lightgray;
+    border: 5px solid darkgray;
+    border-radius: 50%;
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.clock div {
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    position: absolute;
+}
+
+.twelve {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+}
+
+.three {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.six {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+
+.nine {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+}
