@@ -58,25 +58,29 @@ body {
 .hands div {
     position: absolute;
     transform-origin: bottom;
+    border-radius: 50% 50% 0% 0%;
+    box-shadow: 1px 1px black;
     bottom: 50%;
-    width: 10px;
     z-index: 2;
 }
 
 .hour {
     background-color: white;
     height: 150px;
+    width: 10px;
 }
 
 .minute {
-    background-color: gray;
+    background-color: white;
     height: 250px;
+    width: 10px;
     transform: rotate(30deg);
 }
 
 .second {
-    background-color: black;
+    background-color: red;
     height: 250px;
+    width: 5px;
     transform: rotate(60deg);
 }
 
