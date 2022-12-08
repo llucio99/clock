@@ -18,4 +18,5 @@ function time() {
     second.style.transform = `rotate(${secondsAngle}deg)`;
 }
 
+time();
 setInterval(time, 1000);
