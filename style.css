@@ -74,14 +74,12 @@ body {
     background-color: white;
     height: 250px;
     width: 10px;
-    transform: rotate(30deg);
 }
 
 .second {
     background-color: red;
     height: 250px;
     width: 5px;
-    transform: rotate(60deg);
 }
 
 .button {
