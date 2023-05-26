@@ -5,4 +5,4 @@ Technologies Used:
 - JavaScript
 
 ## How to run
-- Open "index.html" in web browser
+- Open `index.html` in web browser
